@@ -1,0 +1,27 @@
+{
+  "name": "designexx",
+  "version": "1.0.0",
+  "description": "svg-to-components",
+  "main": "converterSvg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node converterSvg.js",
+    "format": "npm run --prefix Storybook/react-typescript-storybook-starter check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designneexx/svg-to-react-components.git"
+  },
+  "author": "designexx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designneexx/svg-to-react-components/issues"
+  },
+  "homepage": "https://github.com/designneexx/svg-to-react-components#readme",
+  "devDependencies": {
+    "npm": "^6.14.4"
+  },
+  "dependencies": {
+    "styled-components": "^5.1.0"
+  }
+}
